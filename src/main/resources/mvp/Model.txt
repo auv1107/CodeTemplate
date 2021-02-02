@@ -1,0 +1,3 @@
+package $package$.model
+
+class $prefix$Model : BaseModel

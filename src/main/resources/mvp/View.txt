@@ -1,0 +1,17 @@
+package $package$.view
+
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+
+class $prefix$View : View, BaseView {
+
+    constructor()
+
+    companion object {
+
+        fun instance(parent: ViewGroup): $prefix$View {
+            return LayoutInflater.from(parent.context).inflate(R.layout.view_$prefix$, parent, false)
+        }
+    }
+}

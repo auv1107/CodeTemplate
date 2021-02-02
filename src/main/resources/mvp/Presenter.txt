@@ -1,0 +1,8 @@
+package $package$.presenter
+
+class $prefix$Presenter(view: $prefix$View) : BasePresenter<$prefix$View, $prefix$Model>(view) {
+
+    override fun bind(model: $prefix$Model) {
+        TODO("Not yet implemented")
+    }
+}
